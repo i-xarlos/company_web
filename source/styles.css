@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1rem 0;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: red;
+}
+
+a.current {
+  background-color: #ff8500;
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+nav {
+  margin-bottom: 3rem;
+}
+nav a {
+  display: inline;
+  margin-right: 1rem;
+}
