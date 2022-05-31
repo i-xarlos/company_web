@@ -13,5 +13,3 @@ for (let index in nav.childNodes) {
     break;
   }
 }
-
-console.log(currElementName || "index");
